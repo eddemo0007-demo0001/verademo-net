@@ -1,0 +1,55 @@
+# Ignore Visual Studio temporary files, build results, and
+# include common config settings
+.vscode/
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore .NET generated files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Ignore build outputs
+project.lock.json
+project.fragment.lock.json
+
+# Ignore user settings
+*.userprefs
+
+# Ignore TSQL generated files
+*.bak
+*.log
+
+# Ignore CSS artifacts (e.g., generated files in a build process)
+node_modules/
+dist/
+
+# Ignore Docker specific files
+Dockerfile.*
+
+# Ignore Shell script logs
+*.log
+*.sh~
+
+# Ignore any design-time build cache from Visual Studio
+*.dtbcache.v2
+*.vsidx
+
+# Ignore HTML coverage reports (if you use any tool that generates them)
+coverage/
+
+# General ignores
+*.DS_Store
+Thumbs.db
+*.env
